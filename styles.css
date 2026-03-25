@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(9, 0, 17);
+
+}
+
+.container {
+  background-color: white;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  /* height: 500px; */
+  background-color: rgb(234, 234, 237)
+}
+
+.home-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px 15px 0px;
+
+}
+
+.box {
+height: 40px;    
+margin: 5px 0px 5px 0px;   
+border-radius: 5px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+padding: 10px;
+}
+
+
+#start-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 37px;
+  width: 200px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #cabfbfa9;
+  background-color: rgb(9, 0, 17);
+  color: white;
+}
+
+.question-screen {
+    background-color: white;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #cabfbfa9;
+}
+
+.progress {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 10px 0px;
+    font-size: 14px;
+    color: #666;
+
+}
+
+#timer {
+    background: #faeeda;
+    color: #633806;
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-weight: 500;
+}
+
+.progress-bar {
+    background: #eee;
+    border-radius: 4px;
+    height: 6px;
+    margin-bottom: 24px;
+}
+
+.progress-bar-fill {
+    background: #7F77DD;
+    border-radius: 4px;
+    height: 6px;
+    width: 14%;
+}
+
+#question-text {
+    font-size: 18px;
+    font-family: strong;
+    margin-bottom: 20px;
+}
+
+
+.option-btn {
+    display: block;
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    font-size: 15px;
+    text-align: left;
+    cursor: pointer;
+}
