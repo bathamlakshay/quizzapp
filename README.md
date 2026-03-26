@@ -17,7 +17,7 @@ your knowledge across multiple categories.
 - Open Trivia DB API
 
 ## Live Demo
-
+https://lakshayquiz-app.netlify.app/
 
 ## How to Run Locally
 1. Clone the repo
